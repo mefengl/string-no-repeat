@@ -1,0 +1,23 @@
+{
+    "name": "string-no-repeat",
+    "version": "0.1.0",
+    "description": "Remove duplicate parts from a text string",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "scripts": {
+        "test": "node test.js",
+        "build": "npx tsup src/index.js --format cjs,esm --minify",
+        "prepublish": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mefengl/string-no-repeat.git"
+    },
+    "keywords": [
+        "string",
+        "duplicate",
+        "remove"
+    ],
+    "author": "mefengl",
+    "license": "MIT"
+}
